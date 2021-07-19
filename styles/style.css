@@ -1,0 +1,71 @@
+/* common css */
+.bg-pink{
+    background: #FEEAE9;
+}
+.bg-orange{
+    background: #FF9D00;
+}
+.bg-purple{
+    background: orchid;
+}
+.bg-blue{
+    background: blue;
+}
+.text-orange{
+    color: #FF9D00;
+    transition: 0.3s all ease;
+}
+.ctg{
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.ctg img{
+    width: 100px;
+}
+.buy-now-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.price {
+    color: #FF136F;
+}
+.search-bar input{
+    width: 390px;
+}
+.search-bar button{
+    margin-left: -35px;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+
+
+/* banner css */
+#banner{
+    padding: 50px 0;
+}
+#banner .carousel{
+    border-radius: 10px;
+}
+#banner .carousel-item{
+    padding: 20px 40px;
+}
+/* banner ends */
+/* products starts */
+#products{
+    background-color: #F4F4F4;
+    padding: 50px 0;
+}
+/* products ends */
+
+/* bootstrap custmize */
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1140px;
+    }
+}
