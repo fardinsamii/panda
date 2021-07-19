@@ -31,6 +31,14 @@
     cursor: pointer;
     text-decoration: none;
 }
+.subscribe-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    padding: 9px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
 .price {
     color: #FF136F;
 }
@@ -62,7 +70,22 @@
     padding: 50px 0;
 }
 /* products ends */
-
+/* subscribe starts */
+#subscribe{
+    padding: 60px 0;
+}
+#subscribe .subscribe-wrapp{
+    padding: 80px 0;
+    border-radius: 10px;
+}
+#subscribe .subscribe-form{
+    width: 400px;
+}
+#subscribe .subscribe-form button{
+    margin-left: -85px;
+    border-radius: 20px;
+}
+/* subscribe ends */
 /* bootstrap custmize */
 @media only screen and (min-width: 1400px){
     .container{
